@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url("https://cdn.shopify.com/s/files/1/0565/7080/6458/collections/marble-geometry-wallpaper-mural.jpg?v=1660198030");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        h1 {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-family: Arial, sans-serif;
+            color: black;
+            margin-top: 0;
+        }
+        
+        div.login-form {
+            background-color: white;
+            width: 600px;
+            border: 10px solid gold;
+            padding: 50px;
+        }
+      
+        .login-form p {
+            margin: 5px 0;
+        }
+        
+        .input-box {
+			background-color: white;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        
+        .submit-btn {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h1>Welcome to Music Dreamer</h1><br/>
+        <h3>Discover new music and stream your favorite tracks with our Music Dreamer.</h3>
+        <br/><br/><br/>
+        <form method="post" action="MainPage.php">
+            <p><b>Username:</b> <input type="text" name="username" class="input-box" /></p><br/>
+            <p><b>Password:</b> <input type="password" name="password" class="input-box" /></p>
+            <p><input type="submit" value="Let me in" class="submit-btn" /></p>
+            <p><a href="signup.html">Don't have an account? Sign Up here</a></p>
+        </form>
+    </div>
+</body>
+</html>
